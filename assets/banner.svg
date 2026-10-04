@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Ameni Mhamdi - QA Automation Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a16"/>
+      <stop offset="1" stop-color="#14143a"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#35e0a1"/>
+      <stop offset="1" stop-color="#8b6bff"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b6bff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b6bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#35e0a1" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#35e0a1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="340" rx="22"/></clipPath>
+    <style>
+      .name{font:800 58px 'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:-1.5px;fill:#eeeef8}
+      .role{font:600 22px 'Segoe UI',Helvetica,Arial,sans-serif;fill:url(#brand)}
+      .meta{font:400 15px Consolas,Menlo,monospace;fill:#9494b6}
+      .chip{font:600 13px Consolas,Menlo,monospace;fill:#d6d6ee}
+      .mono{font:400 14px Consolas,Menlo,monospace;fill:#c8c8e2}
+      .dim{fill:#6f6f9c}
+      .ok{fill:#35e0a1}
+      .head{font:400 12px Consolas,Menlo,monospace;fill:#9494b6}
+      .sum{font:600 14px Consolas,Menlo,monospace;fill:#35e0a1}
+
+      .blobA{animation:driftA 14s ease-in-out infinite alternate}
+      .blobB{animation:driftB 17s ease-in-out infinite alternate}
+      @keyframes driftA{to{transform:translate(120px,40px)}}
+      @keyframes driftB{to{transform:translate(-140px,-30px)}}
+
+      .line{opacity:0;animation:show 9s infinite}
+      .l1{animation-delay:.4s}.l2{animation-delay:1s}.l3{animation-delay:1.6s}
+      .l4{animation-delay:2.2s}.l5{animation-delay:2.8s}.l6{animation-delay:3.6s}
+      @keyframes show{0%{opacity:0;transform:translateX(-8px)}4%{opacity:1;transform:none}88%{opacity:1}96%,100%{opacity:0}}
+
+      .bar{transform-origin:0 0;transform:scaleX(0);animation:fill 9s infinite}
+      @keyframes fill{0%{transform:scaleX(0)}40%{transform:scaleX(1)}88%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}
+
+      .cursor{animation:blink 1s steps(2) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .pulse{animation:pulse 2.2s ease-in-out infinite}
+      @keyframes pulse{50%{opacity:.25}}
+      .rise{animation:rise 1s ease-out both}
+      .r2{animation-delay:.15s}.r3{animation-delay:.3s}.r4{animation-delay:.45s}
+      @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <circle class="blobA" cx="250" cy="40" r="260" fill="url(#glowA)"/>
+    <circle class="blobB" cx="980" cy="320" r="280" fill="url(#glowB)"/>
+
+    <!-- left: identity -->
+    <g transform="translate(64,0)">
+      <g class="rise">
+        <rect x="0" y="62" width="252" height="30" rx="15" fill="#35e0a1" fill-opacity="0.08" stroke="#35e0a1" stroke-opacity="0.35"/>
+        <circle class="pulse" cx="18" cy="77" r="4" fill="#35e0a1"/>
+        <text x="32" y="82" class="chip" style="fill:#35e0a1">Shipping quality since 2023</text>
+      </g>
+      <text x="0" y="160" class="name rise r2">Ameni Mhamdi</text>
+      <text x="2" y="198" class="role rise r3">QA Automation Engineer · AI-assisted testing</text>
+      <text x="2" y="230" class="meta rise r3">ISTQB® CTFL v4.0  ·  A4Q Selenium certified  ·  Tunisia</text>
+
+      <g transform="translate(0,256)"><g class="rise r4">
+        <rect width="104" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2c58"/>
+        <text x="14" y="20" class="chip">Playwright</text>
+        <rect x="114" width="92" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2c58"/>
+        <text x="128" y="20" class="chip">Selenium</text>
+        <rect x="216" width="92" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2c58"/>
+        <text x="230" y="20" class="chip">Cucumber</text>
+        <rect x="318" width="104" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2c58"/>
+        <text x="332" y="20" class="chip">TypeScript</text>
+        <rect x="432" width="96" height="30" rx="8" fill="#8b6bff" fill-opacity="0.15" stroke="#8b6bff" stroke-opacity="0.6"/>
+        <text x="446" y="20" class="chip" style="fill:#c9bcff">AI agents</text>
+      </g></g>
+    </g>
+
+    <!-- right: live test runner -->
+    <g transform="translate(700,52)">
+      <rect width="440" height="236" rx="14" fill="#111128" stroke="#2c2c58"/>
+      <rect width="440" height="34" rx="14" fill="#181838"/>
+      <rect y="20" width="440" height="14" fill="#181838"/>
+      <circle cx="20" cy="17" r="5" fill="#ff5f57"/>
+      <circle cx="38" cy="17" r="5" fill="#febc2e"/>
+      <circle cx="56" cy="17" r="5" fill="#28c840"/>
+      <text x="78" y="21" class="head">$ npx playwright test --project=all</text>
+
+      <g transform="translate(20,62)">
+        <g class="line l1"><text class="mono"><tspan class="ok">✓</tspan>  login › valid user<tspan class="dim" x="330">0.4s</tspan></text></g>
+        <g transform="translate(0,26)"><g class="line l2"><text class="mono"><tspan class="ok">✓</tspan>  checkout › end to end<tspan class="dim" x="330">1.2s</tspan></text></g></g>
+        <g transform="translate(0,52)"><g class="line l3"><text class="mono"><tspan class="ok">✓</tspan>  api › auth + CRUD<tspan class="dim" x="330">0.3s</tspan></text></g></g>
+        <g transform="translate(0,78)"><g class="line l4"><text class="mono"><tspan class="ok">✓</tspan>  bdd › Given / When / Then<tspan class="dim" x="330">0.2s</tspan></text></g></g>
+        <g transform="translate(0,104)"><g class="line l5"><text class="mono"><tspan class="ok">✓</tspan>  ai-agent › review passed<tspan class="dim" x="330">0.1s</tspan></text></g></g>
+        <g transform="translate(0,138)"><g class="line l6"><text class="sum">5 passed · 0 failed · ready to ship 🚀</text></g></g>
+      </g>
+
+      <rect x="20" y="214" width="400" height="4" rx="2" fill="#25254a"/>
+      <rect class="bar" x="20" y="214" width="400" height="4" rx="2" fill="url(#brand)"/>
+      <rect class="cursor" x="410" y="190" width="9" height="16" fill="#35e0a1"/>
+    </g>
+
+    <rect x="1" y="1" width="1198" height="338" rx="21" fill="none" stroke="url(#brand)" stroke-opacity="0.35"/>
+  </g>
+</svg>

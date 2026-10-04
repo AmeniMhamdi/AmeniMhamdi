@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:35e0a1,100:8b6bff&height=170&section=header&text=Ameni%20Mhamdi&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=QA%20Automation%20Engineer&descAlignY=58" alt="Ameni Mhamdi — QA Automation Engineer" />
+  <a href="https://amenimhamdi.github.io/Portfolio/"><img src="./assets/banner.svg" width="100%" alt="Ameni Mhamdi — QA Automation Engineer" /></a>
 </p>
 
 <p align="center">
